@@ -6,13 +6,11 @@ plugins {
 
 android {
     namespace = "com.example.navigasiku"
-    compileSdk = 34 // ⚠️ ubah ke 34 dulu, karena compileSdk 36 belum stabil (belum rilis final)
-
+    compileSdk = 34
     defaultConfig {
         applicationId = "com.example.navigasiku"
         minSdk = 24
-        targetSdk = 34 // sama seperti compileSdk agar aman
-        versionCode = 1
+        targetSdk = 34
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
